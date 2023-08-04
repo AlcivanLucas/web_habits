@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Rotas } from './Rotas.tsx'
+import  Rotas  from './Rotas'
 
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
