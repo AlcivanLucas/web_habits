@@ -6,7 +6,7 @@ import Login from "./pages/Login";
 
 const Rotas = () => {
     return (
-        <div className="App">
+        <div >
           <Routes>
             {/* Componente da tela inicial */}
             <Route index element={<App />} />
