@@ -1,10 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import  Login  from './pages/Login'
 import './styles/global.css';
+import { BrowserRouter, Route } from 'react-router-dom'
+import Rotas from "./Rotas";
+
+
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <Login />
+    <Rotas />
   </React.StrictMode>,
 )
