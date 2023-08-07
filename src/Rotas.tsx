@@ -29,8 +29,4 @@ const RoutesApp = () => {
   );
 };
 
-<<<<<<< HEAD
-export default Rotas;
-=======
 export default RoutesApp;
->>>>>>> cc2b4ea (add rotas)
