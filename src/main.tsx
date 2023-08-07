@@ -1,13 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './styles/global.css';
-import { BrowserRouter, Route } from 'react-router-dom'
+import './styles/global.tsx';
 import Rotas from "./Rotas";
-
-
+import GlobalStyle from "./styles/global";
+import { AuthProvider } from "./contexts/auth";
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
-  <React.StrictMode>
-    <Rotas />
-  </React.StrictMode>,
+    <AuthProvider>
+      <Rotas />
+      <GlobalStyle />
+  </AuthProvider>
 )
