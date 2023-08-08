@@ -10,7 +10,7 @@ import useAuth from "../hooks/useAuth";
 
 
 export default function Signuptwo() {
-/*
+
     const { signin } = useAuth();
     const navigate = useNavigate();
   
@@ -33,7 +33,8 @@ export default function Signuptwo() {
   
       navigate("/home");
     };
-  */
+  
+    
   return (
     <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
         <div className='hidden sm:block'>
