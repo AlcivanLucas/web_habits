@@ -18,7 +18,7 @@ export default function Login() {
     const [error, setError] = useState("");
   
     const handleLogin = () => {
-      if (!email | !senha) {
+      if (!email || !senha) {
         setError("Preencha todos os campos");
         return;
       }

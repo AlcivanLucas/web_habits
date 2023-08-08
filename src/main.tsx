@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './styles/global.tsx';
-import RoutesApp from "./Rotas";
+import RoutesApp from "./router/routes";
 import GlobalStyle from "./styles/global";
 import { AuthProvider } from "./contexts/auth";
 

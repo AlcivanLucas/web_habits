@@ -8,8 +8,9 @@ import { Link, useNavigate } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 
 
-export default function Login() {
 
+export default function Signuptwo() {
+/*
     const { signin } = useAuth();
     const navigate = useNavigate();
   
@@ -18,7 +19,7 @@ export default function Login() {
     const [error, setError] = useState("");
   
     const handleLogin = () => {
-      if (!email | !senha) {
+      if (!email || !senha) {
         setError("Preencha todos os campos");
         return;
       }
@@ -32,7 +33,7 @@ export default function Login() {
   
       navigate("/home");
     };
-  
+  */
   return (
     <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
         <div className='hidden sm:block'>
